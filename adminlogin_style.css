@@ -1,0 +1,47 @@
+
+	body{
+
+		margin: 1;padding: 0;border: 0;  
+		padding: 300px;                                                                                               
+                
+                background-image: url('https://upload.wikimedia.org/wikipedia/en/8/8e/Bitmesra.JPG'); top;
+                background-size:cover;
+                
+                background-position: center;
+	}
+
+	h1{
+		font-size: 35px;
+	}
+	input[type=submit],input[type=text] {
+  width: 50%;
+  padding: 12px 12px;
+  margin: 8px 8px;
+  box-sizing: border-box;
+  font-size: 15px;
+
+}
+
+}
+
+ section{
+  position: center;
+  max-width: 400px; /* Maximum width */
+  max-height: 400px;
+  margin: 100 auto; /* Center it */
+  border-bottom-width: 50px;
+}
+
+
+ section{
+  position: absolute; /* Position the background text */
+  bottom: 100px; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 40%; /* Full width */
+  height: 40%;
+
+  padding: 100px; /* Some padding */
+  border-bottom-width: 50px; 
+}

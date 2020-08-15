@@ -1,0 +1,43 @@
+
+header{
+	color: blue;
+	background-color: red;
+	text-align: center;
+}
+
+#main {
+
+text-align: center; 
+  border: solid 1px black;
+  width: 80%;
+  height: 75%;
+  position: fixed;
+  background-color: gray;
+  left: 17%;
+  top: 30%;
+  bottom: 30%;
+
+}
+#sidebar {
+  height: 75%; /* Full-height: remove this if you want "auto" height */
+  width: 15%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 25%; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+
+ 
+  padding-top: 20px;
+  text-align: center;
+  border-left: 2px;
+}
+
+input[type=submit]{
+  width: 90%;
+  padding: 20px 20px;
+  margin: 10px 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+
+}
